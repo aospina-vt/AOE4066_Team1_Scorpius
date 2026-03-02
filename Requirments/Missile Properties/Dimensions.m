@@ -1,7 +1,7 @@
 function [Length, Width, Height] = Dimensions()
-    Length = 132;
-    Width = 11.89;
-    Height = 9.25;
+    Length = 140.7;
+    Width = 14;
+    Height = 12.3;
 
 end
 

@@ -4,7 +4,7 @@ function [Initial, Final, Warhead, Strucutre, Avionics, Engine, Fuel_Ox] = Weigh
     Strucutre = 291;
     Avionics = 19;
     Engine = 87;
-    Fuel_Ox = 1400;
+    Fuel_Ox = 925;
 
     Initial = Strucutre + Avionics + Engine + Fuel_Ox + Warhead;
     Final = Initial - Fuel_Ox;
