@@ -1,5 +1,6 @@
 function [Initial, Final, explosives, Strucutre, Avionics, Engine, Fuel_Ox] = Weights()
-    %LBS
+    % These weights were dervied from spreadsheets
+    % LBS
     explosives = 50;
     casing = 150;
     
@@ -18,5 +19,4 @@ function [Initial, Final, explosives, Strucutre, Avionics, Engine, Fuel_Ox] = We
 
     Initial = Strucutre + Avionics + Propulsion + explosives + casing;
     Final = Initial - Fuel_Ox;
-
 end
