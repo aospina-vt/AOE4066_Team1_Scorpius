@@ -1,8 +1,4 @@
-clear
-clc
-
-function dp_psi = peak_overpressure_psi_cased_mode( ...
-    W_charge_lb, TNTeq_factor, W_casing_lb, r_ft, p0_psi, mode)
+function dp_psi = peak_overpressure_psi_cased_mode(W_charge_lb, TNTeq_factor, W_casing_lb, r_ft, p0_psi, mode)
 %PEAK_OVERPRESSURE_PSI_CASED_MODE
 % Returns only peak overpressure Δp [psi].
 %
