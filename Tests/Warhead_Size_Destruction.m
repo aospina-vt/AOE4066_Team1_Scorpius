@@ -1,9 +1,9 @@
 classdef Warhead_Size_Destruction < matlab.unittest.TestCase
     methods (Test)
         function warheadDestructionSize(testCase)
-            [~,~,warhead_size] = Weights();
+            [~,~,explosive_weight] = Weights();
             
-            testCase.verifyFail("Unimplemented test");
+            testCase.verifyGreaterThan(explosive_weight, 30);
         end
     end
 
