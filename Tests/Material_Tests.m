@@ -1,4 +1,7 @@
 classdef Material_Tests < matlab.unittest.TestCase
+    % Ensures the values obtained throguh ABAQUS for the strucutre and ANSYS for the heating is
+    % compliant with the matterial properties. 
+    
     methods (Test)
 
         function FactorSafety(testCase)

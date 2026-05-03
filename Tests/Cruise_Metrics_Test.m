@@ -1,4 +1,7 @@
 classdef Cruise_Metrics_Test < matlab.unittest.TestCase
+    % Uses the missile trajectory file to compute the cruise speed, range,
+    % and air launch condition to ensure it conforms to reqs. 
+    
     methods (Test)
 
         function Cruise_speed(testCase)

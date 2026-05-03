@@ -1,4 +1,11 @@
 classdef Production_Tests < matlab.unittest.TestCase
+    % Based on an analysis of the number of ansembly stations
+    % and labor at each production facility. 
+
+    % Shelf-life of each component verified throguhout project.
+
+    % EIS verified throguh conversations with industry professionals. 
+    
     methods (Test)
         % Test methods
 
