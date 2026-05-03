@@ -106,8 +106,8 @@ function penetration = calc_pen(volume, diameter, V,rho_target,sigma_target)
 rho_pen=15.19; % slug/ft^3 (metal)
 
 d=diameter;
-l = (4*volume) ./ (pi * diameter.^2)
-ld=l/d %should be higher than 2
+l  = (4*volume) ./ (pi * diameter.^2)
+ld =l/d %should be higher than 2
 
 penetration=(((l/d)-1)*((rho_pen/rho_target).^(1/2))+3.67*((rho_pen/rho_target).^(2/3))*(((rho_target*(V)^2)/sigma_target).^(1/3)))*(d/12);
 %ft penetration
