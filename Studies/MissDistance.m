@@ -2,4 +2,4 @@
 % Miss Distance taken from DesigningAGuidanceSystem.m
 % Miss Distance = 1.28 m
 
-MissDistance = 1.28;
+distance = 1.28;
